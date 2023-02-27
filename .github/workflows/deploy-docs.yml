@@ -22,7 +22,7 @@ jobs:
       - run: npm run build
         env:
           TURBO_TOKEN: AqCjnVzNaZpJsa4MPX2KUBke
-          # TURBO_TEAM: wallace
+          TURBO_TEAM: wallacesat-s-team
 
       - name: Deploy storybook
         working-directory: ./packages/docs
